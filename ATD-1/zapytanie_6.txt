@@ -1,0 +1,19 @@
+db.people.insertOne({
+  sex: 'Female',
+  first_name: 'Karolina',
+  last_name: 'Gajewska',
+  job: 'PBI Developer',
+  email: 'karolina0@gmail.com',
+  location: 
+   { city: 'WPR',
+     address: { streetname: 'Ignacego', streetnumber: '7' } },
+  description: 'Res, non verba',
+  height: '167.0',
+  weight: '66.81',
+  birth_date: '1997-02-03T00:20:03Z',
+  nationality: 'Poland',
+  credit: 
+   [ { type: 'switch',
+       number: '6759888939300098699',
+       currency: 'PLN',
+       balance: '154444445117.06' } ] })
