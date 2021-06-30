@@ -1,0 +1,21 @@
+{
+  _id: "$nationality",
+  AVGmin: {
+    $avg: {
+      $divide: [{$toDouble: "$weight"}, {
+        $pow: [{$divide: [{$toDouble: "$height"}, 100]}, 2]}
+  ]}
+},
+AVGMIN: {
+    $min: {
+      $divide: [{$toDouble: "$weight"}, {
+        $pow: [{$divide: [{$toDouble: "$height"}, 100]}, 2]}
+  ]}
+},
+AVGMAX: {
+    $max: {
+      $divide: [{$toDouble: "$weight"}, {
+        $pow: [{$divide: [{$toDouble: "$height"}, 100]}, 2]}
+  ]}
+}
+}

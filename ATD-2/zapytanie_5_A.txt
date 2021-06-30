@@ -1,0 +1,14 @@
+[{$unwind: {
+  path: "$credit"
+
+  }}, {$match: {
+  "nationality": "Poland",
+  "sex": "Female"
+}}, {$group: {
+  _id: "$nationality",
+  avg: {
+    $avg: {$toDouble: "$credit.balance"}
+  },
+  sum: 
+    {$sum: {$toDouble: "$credit.balance"}}
+}}, {$out: 'wyniki_5_A'}]
