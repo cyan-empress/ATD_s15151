@@ -1,0 +1,12 @@
+3.HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvrf3jn/PwOCnmMGUyJTHyhBpE3iLLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15151>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 19:04:57 GMT
+ETag: "3bcNAqe344l7p3dN4Vb9tt"
+Date: Wed, 30 Jun 2021 19:10:25 GMT
+Content-Type: application/json
+Content-Length: 109
+
+{'name':'J. R.R. Tolkien', 'from':'England', 'born':'03-01-1892', 'notable work':'LOTR', 'died':'02-08-1973'}

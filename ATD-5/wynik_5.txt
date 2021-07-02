@@ -1,0 +1,14 @@
+5.
+curl -i http://localhost:8098/buckets/s15151/keys/Schwab
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvrcXzrrNwOCnmMGUyJTHyrDCPvAWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15151>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 19:19:04 GMT
+ETag: "5NpCvKogCwYWMdy6YTzG2b"
+Date: Wed, 30 Jun 2021 19:20:04 GMT
+Content-Type: application/json
+Content-Length: 83
+
+{'name':'V.E. Schwab', 'from':'USA', 'born':'07-07-1987', 'notable work':'Vicious'}

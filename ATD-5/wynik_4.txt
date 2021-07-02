@@ -1,0 +1,13 @@
+curl -i http://localhost:8098/buckets/s15151/keys/Tolkien
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvrf3jn/PwOCnmMGUyJzHysBvF3iLLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15151>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 19:12:15 GMT
+ETag: "5KZVxEx8BsPdh7WydMmami"
+Date: Wed, 30 Jun 2021 19:12:57 GMT
+Content-Type: application/json
+Content-Length: 88
+
+{'name':'J. R.R. Tolkien', 'from':'England', 'born':'03-01-1892', 'notable work':'LOTR'}

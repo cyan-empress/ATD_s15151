@@ -1,0 +1,24 @@
+1. 
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'Tite Kubo', 'from':'Japan', 'born':'26-06-1977', 'notable work':'Bleach'}" http://localhost:8098/buckets/s15151/keys/Kubo
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'Rebecca F.Kuang', 'from':'China', 'born':'29-05-1996', 'notable work':'The Poppy War'}" http://localhost:8098/buckets/s15151/keys/Kuang
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'Ve Schwab', 'from':'USA', 'born':'07-07-1987', 'notable work':'Vicious'}" http://localhost:8098/buckets/s15151/keys/Schwab
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'A.Sapkowski', 'from':'Poland', 'born':'21-06-1948', 'notable work': 'The Witcher'}" http://localhost:8098/buckets/s15151/keys/Sapkowski
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'J. R.R. Tolkien', 'from':'England', 'born':'03-01-1892', 'notable work':'LOTR'}" http://localhost:8098/buckets/s15151/keys/Tolkien
+
+2. 
+curl -i http://localhost:8098/buckets/s15151/keys/Kubo
+
+3.
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'J. R.R. Tolkien', 'from':'England', 'born':'03-01-1892', 'notable work':'LOTR', 'died':'02-08-1973'}" http://localhost:8098/buckets/s15151/keys/Tolkien
+
+4.
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'J. R.R. Tolkien', 'from':'England', 'born':'03-01-1892', 'notable work':'LOTR'}" http://localhost:8098/buckets/s15151/keys/Tolkien
+
+5.
+curl -XPUT -H "Content-Type: application/json" -d"{'name':'V.E. Schwab', 'from':'USA', 'born':'07-07-1987', 'notable work':'Vicious'}" http://localhost:8098/buckets/s15151/keys/Schwab
+
+6.
+curl -XDELETE http://localhost:8098/buckets/s15151/keys/Sapkowski
+
+7.
+curl -i http://localhost:8098/buckets/s15151/keys/Bruce

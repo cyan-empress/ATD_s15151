@@ -1,0 +1,9 @@
+
+7.curl -i http://localhost:8098/buckets/s15151/keys/Bruce
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 30 Jun 2021 19:24:11 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

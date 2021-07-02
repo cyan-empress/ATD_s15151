@@ -1,0 +1,13 @@
+2.
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvrf3uXWWgcFPMYMpkTGPleGAaeAtviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15151>; rel="up"
+Last-Modified: Wed, 30 Jun 2021 18:36:48 GMT
+ETag: "6RVRwmcNbIPI56ABFVoLrg"
+Date: Wed, 30 Jun 2021 19:09:31 GMT
+Content-Type: application/json
+Content-Length: 82
+
+{'name':'Tite Kubo', 'from':'Japan', 'born':'26-06-1977', 'notable work':'Bleach'}
