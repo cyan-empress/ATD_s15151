@@ -1,0 +1,20 @@
+Create document. DB response:  204
+Read document. DB response:  200
+Print document:  {'name': 'Tite Kubo', 'from': 'Japan', 'born': '26-06-1977', 'notable work': 'Bleach'}
+Add data to document. DB response:  204
+Read document once again. DB response:  200
+Print document:  {'name': 'Rebecca F.Kuang', 'from': 'China', 'born': '29-05-1996', 'notable work': 'The Poppy War'}
+Delete document. DB response:  204
+Read document one last time. DB response:  404
+Traceback (most recent call last):
+  File "C:\Users\cyane\skrypt.py", line 34, in <module>
+    print("Print document: ", get3.json())
+  File "C:\Users\cyane\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\requests\models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.1776.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.1776.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.1776.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
