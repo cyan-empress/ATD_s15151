@@ -1,8 +1,8 @@
-[
+﻿[
   {
-    "polaczenie": {
+    "trip": {
 "start": {
-"identity": 15,
+"identity": 5,
 "labels": [
           "Airport"
         ],
@@ -11,7 +11,7 @@
         }
       },
 "end": {
-"identity": 80,
+"identity": 70,
 "labels": [
           "Airport"
         ],
@@ -22,7 +22,7 @@
 "segments": [
         {
           "start": {
-"identity": 15,
+"identity": 5,
 "labels": [
               "Airport"
             ],
@@ -31,16 +31,51 @@
             }
           },
           "relationship": {
-"identity": 1790,
-"start": 17,
-"end": 15,
-"type": "CONNECTION",
+"identity": 101,
+"start": 151,
+"end": 5,
+"type": "DESTINATION",
 "properties": {
-"price": 1365.75
+
             }
           },
           "end": {
-"identity": 17,
+"identity": 151,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 151,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/30/2015 23:33:29",
+"duration": 233,
+"distance": 1744,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 100,
+"start": 151,
+"end": 7,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 7,
 "labels": [
               "Airport"
             ],
@@ -51,7 +86,7 @@
         },
         {
           "start": {
-"identity": 17,
+"identity": 7,
 "labels": [
               "Airport"
             ],
@@ -60,16 +95,51 @@
             }
           },
           "relationship": {
-"identity": 1895,
-"start": 18,
-"end": 17,
-"type": "CONNECTION",
+"identity": 311,
+"start": 319,
+"end": 7,
+"type": "DESTINATION",
 "properties": {
-"price": 263.25
+
             }
           },
           "end": {
-"identity": 18,
+"identity": 319,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 319,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/29/2015 03:57:27",
+"duration": 53,
+"distance": 334,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 310,
+"start": 319,
+"end": 8,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 8,
 "labels": [
               "Airport"
             ],
@@ -80,7 +150,7 @@
         },
         {
           "start": {
-"identity": 18,
+"identity": 8,
 "labels": [
               "Airport"
             ],
@@ -89,16 +159,51 @@
             }
           },
           "relationship": {
-"identity": 1888,
-"start": 18,
-"end": 80,
-"type": "CONNECTION",
+"identity": 1270,
+"start": 1087,
+"end": 8,
+"type": "ORIGIN",
 "properties": {
-"price": 447.75
+
             }
           },
           "end": {
-"identity": 80,
+"identity": 1087,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1087,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "11/25/2015 02:04:22",
+"duration": 79,
+"distance": 574,
+"airline": "20304"
+            }
+          },
+          "relationship": {
+"identity": 1271,
+"start": 1087,
+"end": 70,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 70,
 "labels": [
               "Airport"
             ],
@@ -108,8 +213,8 @@
           }
         }
       ],
-"length": 3.0
+"length": 6.0
     },
-    "cena": 2076.75
+    "result": 2079.0
   }
 ]

@@ -1,46 +1,46 @@
-1. MATCH(miasto:town{name:"Darjeeling"}), (szczyt:peak{name:"Sandakphu"}) WITH miasto,szczyt MATCH path=allShortestPaths((miasto)-[*]-(szczyt)) RETURN path
+1.
+MATCH (darjeeling {name: 'Darjeeling'}), (sandakphu {name: 'Sandakphu'}),
+result = allShortestPaths((darjeeling)-[*]-(sandakphu))
+RETURN result
 
-2. MATCH(miasto:town{name:"Darjeeling"}), (szczyt:peak{name:"Sandakphu"}) WITH miasto,szczyt MATCH path=allShortestPaths((miasto)-[*]-(szczyt)) WHERE ALL (relacje in RELATIONSHIPS(path) WHERE relacje.winter="true") RETURN path
+2.
+MATCH (darjeeling {name: 'Darjeeling' }), (sandakphu {name: 'Sandakphu'}),
+result = allShortestPaths((darjeeling)-[*]-(sandakphu))
+WHERE ALL (r IN relationships(result) WHERE r.winter = "true")
+RETURN result
 
-3. MATCH droga = (miasto:town {name: "Darjeeling"})-[*..5]->(szczyt:peak {name: "Sandakphu"})
-RETURN droga,reduce(calaDroga=0, p IN relationships(droga)| calaDroga + p.distance) AS odleglosc 
-ORDER BY odleglosc
+3.
+MATCH r=(start:town {name: 'Darjeeling'})-[*]->(end:peak {name: 'Sandakphu'})
+WITH r, REDUCE(w=0, x IN relationships(r) | w+x.distance) AS distance
+RETURN r, distance
+ORDER BY distance ASC
 
-4. 
-MATCH (lotnisko:Airport)<-[:ORIGIN]-(lot:Flight) RETURN lotnisko, count(lot) AS countloty ORDER BY countloty
+4.
+MATCH (fli:Flight)-[r:ORIGIN]->(air:Airport)
+RETURN air, count(r) as departures
+ORDER BY departures ASC
 
 5.
-MATCH (startAirport:Airport)<-[:ORIGIN]-(flight:Flight)-[:DESTINATION]-(endAirport:Airport), (flight)<-[:ASSIGN]-(ticket)
-CREATE (startAirport)-[:CONNECTION {price: ticket.price}]->(endAirport)
+MATCH trip=(origin:Airport {name: "LAX"})<-[r:ORIGIN|DESTINATION*..5]->(destination:Airport)
+WHERE REDUCE(s=0, n IN [x IN NODES(trip) WHERE 'Flight' IN LABELS(x)] | s+[(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) < 3000
+RETURN trip
 
-MATCH path = ((startAirport:Airport {name: "LAX"})-[:CONNECTION*..3]->(airport:Airport))
-WITH path, airport, REDUCE(totalPrice = 0, airport IN relationships(path)|totalPrice + airport.price) AS totalPrice
-WHERE  totalPrice < 3000
-RETURN DISTINCT airport
+6.
+MATCH trip=(origin:Airport {name:"LAX"})<-[r:ORIGIN|DESTINATION*..6]->(destination:Airport {name: "DAY"})
+RETURN trip, REDUCE(s=0, n IN [x IN NODES(trip) WHERE 'Flight' IN LABELS(x)] | s+[(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as connection
+ORDER BY connection ASC
 
-6. 
-MATCH polaczenie = (lotnisko1:Airport {name:"LAX"})-[:CONNECTION*..3]-(lotnisko2:Airport {name:"DAY"})
-WITH REDUCE(cena = 0, airport IN relationships(polaczenie)|cena + airport.price) AS cena, polaczenie
-ORDER BY cena
-RETURN polaczenie
-
-7. 
-MATCH polaczenie = (lotnisko1:Airport {name:"LAX"})-[:CONNECTION*..3]-(lotnisko2:Airport {name:"DAY"})
-WITH REDUCE(cena = 0, connection IN relationships(polaczenie)|cena + connection.price) AS cena, polaczenie
-ORDER BY cena ASC LIMIT 1
-RETURN polaczenie, cena
+7.
+MATCH trip=(origin:Airport {name:"LAX"})<-[r:ORIGIN|DESTINATION*..6]->(destination:Airport {name: "DAY"})
+RETURN trip, REDUCE(s=0, n IN [x IN NODES(trip) WHERE 'Flight' IN LABELS(x)] | s+[(n)<-[:ASSIGN]-(ticket) | ticket.price][0]) as result
+ORDER BY result ASC
+LIMIT 1
 
 8.
-MATCH polaczenie = (lotnisko1:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..4]-(:Flight)-[:DESTINATION]->(lotnisko2:Airport {name: "DAY"})
-RETURN polaczenie, reduce(
-    koszt = 0, 
-    lot IN [n IN nodes(polaczenie) WHERE 'Flight' IN labels(n)] |
-    koszt + [(lot)<-[:ASSIGN]-(bilet:Ticket {class: "business"}) | bilet.price][0]
-) as koszt
-ORDER BY koszt ASC LIMIT 1
+MATCH trip=(origin:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..4]-(:Flight)-[:DESTINATION]->(destination:Airport {name: "DAY"})
+RETURN trip, REDUCE(expense = 0, flight IN [n IN nodes(trip) WHERE 'Flight' IN labels(n)] | expense + [(flight)<-[:ASSIGN]-(tic:Ticket {class: "business"}) | tic.price][0]) as result
+ORDER BY result ASC LIMIT 1
 
 9.
-MATCH polaczenie = (lotnisko1:Airport)<-[:ORIGIN]-(lot:Flight)-[:DESTINATION]->(lotnisko2:Airport)
-    return lotnisko2, count(distinct lotnisko2)
-
-10.
+MATCH trip=(origin:Airport)<-[:ORIGIN]-(flig:Flight)-[:DESTINATION]->(destination:Airport)
+RETURN destination, COUNT(DISTINCT destination)
