@@ -44,3 +44,10 @@ ORDER BY result ASC LIMIT 1
 9.
 MATCH trip=(origin:Airport)<-[:ORIGIN]-(flig:Flight)-[:DESTINATION]->(destination:Airport)
 RETURN destination, COUNT(DISTINCT destination)
+
+10.
+MATCH trip=(a1:Airport)<-[o1:ORIGIN]-(f1:Flight)-[d2:DESTINATION]->(a2:Airport)<-[o3:ORIGIN]-(f2:Flight)-[d4:DESTINATION]->(a3:Airport)
+WHERE NOT(a1 = a2) AND NOT(a1 = a3) AND NOT(a2 = a3)
+WITH trip, REDUCE(expense = 0, flight IN [n IN NODES(trip) WHERE 'Flight' IN LABELS(n)] | expense + [(flight)<-[:ASSIGN]-(tic:Ticket {class: 'economy'}) | tic.price][0]) as result
+RETURN trip, result
+ORDER BY result ASC LIMIT 1
