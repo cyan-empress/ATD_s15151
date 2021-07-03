@@ -1,0 +1,46 @@
+1. MATCH(miasto:town{name:"Darjeeling"}), (szczyt:peak{name:"Sandakphu"}) WITH miasto,szczyt MATCH path=allShortestPaths((miasto)-[*]-(szczyt)) RETURN path
+
+2. MATCH(miasto:town{name:"Darjeeling"}), (szczyt:peak{name:"Sandakphu"}) WITH miasto,szczyt MATCH path=allShortestPaths((miasto)-[*]-(szczyt)) WHERE ALL (relacje in RELATIONSHIPS(path) WHERE relacje.winter="true") RETURN path
+
+3. MATCH droga = (miasto:town {name: "Darjeeling"})-[*..5]->(szczyt:peak {name: "Sandakphu"})
+RETURN droga,reduce(calaDroga=0, p IN relationships(droga)| calaDroga + p.distance) AS odleglosc 
+ORDER BY odleglosc
+
+4. 
+MATCH (lotnisko:Airport)<-[:ORIGIN]-(lot:Flight) RETURN lotnisko, count(lot) AS countloty ORDER BY countloty
+
+5.
+MATCH (startAirport:Airport)<-[:ORIGIN]-(flight:Flight)-[:DESTINATION]-(endAirport:Airport), (flight)<-[:ASSIGN]-(ticket)
+CREATE (startAirport)-[:CONNECTION {price: ticket.price}]->(endAirport)
+
+MATCH path = ((startAirport:Airport {name: "LAX"})-[:CONNECTION*..3]->(airport:Airport))
+WITH path, airport, REDUCE(totalPrice = 0, airport IN relationships(path)|totalPrice + airport.price) AS totalPrice
+WHERE  totalPrice < 3000
+RETURN DISTINCT airport
+
+6. 
+MATCH polaczenie = (lotnisko1:Airport {name:"LAX"})-[:CONNECTION*..3]-(lotnisko2:Airport {name:"DAY"})
+WITH REDUCE(cena = 0, airport IN relationships(polaczenie)|cena + airport.price) AS cena, polaczenie
+ORDER BY cena
+RETURN polaczenie
+
+7. 
+MATCH polaczenie = (lotnisko1:Airport {name:"LAX"})-[:CONNECTION*..3]-(lotnisko2:Airport {name:"DAY"})
+WITH REDUCE(cena = 0, connection IN relationships(polaczenie)|cena + connection.price) AS cena, polaczenie
+ORDER BY cena ASC LIMIT 1
+RETURN polaczenie, cena
+
+8.
+MATCH polaczenie = (lotnisko1:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..4]-(:Flight)-[:DESTINATION]->(lotnisko2:Airport {name: "DAY"})
+RETURN polaczenie, reduce(
+    koszt = 0, 
+    lot IN [n IN nodes(polaczenie) WHERE 'Flight' IN labels(n)] |
+    koszt + [(lot)<-[:ASSIGN]-(bilet:Ticket {class: "business"}) | bilet.price][0]
+) as koszt
+ORDER BY koszt ASC LIMIT 1
+
+9.
+MATCH polaczenie = (lotnisko1:Airport)<-[:ORIGIN]-(lot:Flight)-[:DESTINATION]->(lotnisko2:Airport)
+    return lotnisko2, count(distinct lotnisko2)
+
+10.

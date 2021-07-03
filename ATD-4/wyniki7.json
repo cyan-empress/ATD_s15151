@@ -1,0 +1,115 @@
+[
+  {
+    "polaczenie": {
+"start": {
+"identity": 15,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 80,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 15,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1790,
+"start": 17,
+"end": 15,
+"type": "CONNECTION",
+"properties": {
+"price": 1365.75
+            }
+          },
+          "end": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 17,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 1895,
+"start": 18,
+"end": 17,
+"type": "CONNECTION",
+"properties": {
+"price": 263.25
+            }
+          },
+          "end": {
+"identity": 18,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 18,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSP"
+            }
+          },
+          "relationship": {
+"identity": 1888,
+"start": 18,
+"end": 80,
+"type": "CONNECTION",
+"properties": {
+"price": 447.75
+            }
+          },
+          "end": {
+"identity": 80,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 3.0
+    },
+    "cena": 2076.75
+  }
+]
