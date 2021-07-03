@@ -1,0 +1,23 @@
+#Zadanie 1
+match (film: Movie) return film
+
+#Zadanie 2
+match (actor:Person {name: "Hugo Weaving"})-[acted_in]->(films) return actor, films
+
+#Zadanie 3
+match (actor:Person {name: "Hugo Weaving"})-[acted_in]->(films)<-[directed]->(directors) return actor, films, directors
+
+#Zadanie 4
+match (actor:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(films)<-[:ACTED_IN]->(actors) return actor, films, actors
+
+#Zadanie 5
+match (film:Movie {title: "The Matrix"})-[:ACTED_IN]-(actors)-[:ACTED_IN]->(films) return film, actors, films
+
+#Zadanie 6
+match (person:Person)-[:ACTED_IN]->(film) with person, count(film) as filmes where filmes > 0 return distinct person, filmes
+
+#Zadanie 7
+match (person:Person)-[:DIRECTED]->(film)<-[:WROTE]-(person) return person, film
+
+#Zadanie 8
+match (person:Person)-[:ACTED_IN]->(film)<-[:ACTED_IN]-(person2) where person.name="Hugo Weaving" and person2.name="Keanu Reeves" return film
