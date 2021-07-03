@@ -1,7 +1,7 @@
 [
   {
-    "lotnisko": {
-"identity": 13,
+    "air": {
+"identity": 3,
 "labels": [
         "Airport"
       ],
@@ -9,11 +9,11 @@
 "name": "SAT"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 16,
+    "air": {
+"identity": 6,
 "labels": [
         "Airport"
       ],
@@ -21,11 +21,11 @@
 "name": "FLL"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 19,
+    "air": {
+"identity": 9,
 "labels": [
         "Airport"
       ],
@@ -33,11 +33,11 @@
 "name": "KOA"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 23,
+    "air": {
+"identity": 13,
 "labels": [
         "Airport"
       ],
@@ -45,11 +45,11 @@
 "name": "SMF"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 24,
+    "air": {
+"identity": 14,
 "labels": [
         "Airport"
       ],
@@ -57,11 +57,11 @@
 "name": "RIC"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 25,
+    "air": {
+"identity": 15,
 "labels": [
         "Airport"
       ],
@@ -69,11 +69,11 @@
 "name": "IND"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 30,
+    "air": {
+"identity": 20,
 "labels": [
         "Airport"
       ],
@@ -81,11 +81,11 @@
 "name": "MCI"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 31,
+    "air": {
+"identity": 21,
 "labels": [
         "Airport"
       ],
@@ -93,11 +93,11 @@
 "name": "MSN"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 40,
+    "air": {
+"identity": 30,
 "labels": [
         "Airport"
       ],
@@ -105,11 +105,11 @@
 "name": "BIL"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 42,
+    "air": {
+"identity": 32,
 "labels": [
         "Airport"
       ],
@@ -117,11 +117,11 @@
 "name": "ROC"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 43,
+    "air": {
+"identity": 33,
 "labels": [
         "Airport"
       ],
@@ -129,11 +129,11 @@
 "name": "CLT"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 44,
+    "air": {
+"identity": 34,
 "labels": [
         "Airport"
       ],
@@ -141,11 +141,11 @@
 "name": "DCA"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 48,
+    "air": {
+"identity": 38,
 "labels": [
         "Airport"
       ],
@@ -153,11 +153,11 @@
 "name": "PBI"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 49,
+    "air": {
+"identity": 39,
 "labels": [
         "Airport"
       ],
@@ -165,11 +165,11 @@
 "name": "MIA"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 55,
+    "air": {
+"identity": 45,
 "labels": [
         "Airport"
       ],
@@ -177,11 +177,11 @@
 "name": "MOB"
       }
     },
-    "countloty": 1
+    "numberOfDepartures": 1
   },
   {
-    "lotnisko": {
-"identity": 32,
+    "air": {
+"identity": 22,
 "labels": [
         "Airport"
       ],
@@ -189,11 +189,11 @@
 "name": "SNA"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 35,
+    "air": {
+"identity": 25,
 "labels": [
         "Airport"
       ],
@@ -201,11 +201,11 @@
 "name": "LAS"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 36,
+    "air": {
+"identity": 26,
 "labels": [
         "Airport"
       ],
@@ -213,11 +213,11 @@
 "name": "ATL"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 37,
+    "air": {
+"identity": 27,
 "labels": [
         "Airport"
       ],
@@ -225,11 +225,11 @@
 "name": "CMH"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 38,
+    "air": {
+"identity": 28,
 "labels": [
         "Airport"
       ],
@@ -237,11 +237,11 @@
 "name": "SJC"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 41,
+    "air": {
+"identity": 31,
 "labels": [
         "Airport"
       ],
@@ -249,11 +249,11 @@
 "name": "LGA"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 52,
+    "air": {
+"identity": 42,
 "labels": [
         "Airport"
       ],
@@ -261,11 +261,11 @@
 "name": "TUS"
       }
     },
-    "countloty": 2
+    "numberOfDepartures": 2
   },
   {
-    "lotnisko": {
-"identity": 10,
+    "air": {
+"identity": 0,
 "labels": [
         "Airport"
       ],
@@ -273,11 +273,11 @@
 "name": "SEA"
       }
     },
-    "countloty": 3
+    "numberOfDepartures": 3
   },
   {
-    "lotnisko": {
-"identity": 39,
+    "air": {
+"identity": 29,
 "labels": [
         "Airport"
       ],
@@ -285,11 +285,11 @@
 "name": "PHX"
       }
     },
-    "countloty": 3
+    "numberOfDepartures": 3
   },
   {
-    "lotnisko": {
-"identity": 56,
+    "air": {
+"identity": 46,
 "labels": [
         "Airport"
       ],
@@ -297,11 +297,11 @@
 "name": "SBN"
       }
     },
-    "countloty": 3
+    "numberOfDepartures": 3
   },
   {
-    "lotnisko": {
-"identity": 14,
+    "air": {
+"identity": 4,
 "labels": [
         "Airport"
       ],
@@ -309,11 +309,11 @@
 "name": "MCO"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 20,
+    "air": {
+"identity": 10,
 "labels": [
         "Airport"
       ],
@@ -321,11 +321,11 @@
 "name": "PDX"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 26,
+    "air": {
+"identity": 16,
 "labels": [
         "Airport"
       ],
@@ -333,11 +333,11 @@
 "name": "BOS"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 28,
+    "air": {
+"identity": 18,
 "labels": [
         "Airport"
       ],
@@ -345,11 +345,11 @@
 "name": "DFW"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 34,
+    "air": {
+"identity": 24,
 "labels": [
         "Airport"
       ],
@@ -357,11 +357,11 @@
 "name": "SAN"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 45,
+    "air": {
+"identity": 35,
 "labels": [
         "Airport"
       ],
@@ -369,11 +369,11 @@
 "name": "BHM"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 47,
+    "air": {
+"identity": 37,
 "labels": [
         "Airport"
       ],
@@ -381,11 +381,11 @@
 "name": "CVG"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 50,
+    "air": {
+"identity": 40,
 "labels": [
         "Airport"
       ],
@@ -393,11 +393,11 @@
 "name": "ABQ"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 51,
+    "air": {
+"identity": 41,
 "labels": [
         "Airport"
       ],
@@ -405,11 +405,11 @@
 "name": "FAT"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 53,
+    "air": {
+"identity": 43,
 "labels": [
         "Airport"
       ],
@@ -417,11 +417,11 @@
 "name": "DLH"
       }
     },
-    "countloty": 4
+    "numberOfDepartures": 4
   },
   {
-    "lotnisko": {
-"identity": 29,
+    "air": {
+"identity": 19,
 "labels": [
         "Airport"
       ],
@@ -429,11 +429,11 @@
 "name": "SLC"
       }
     },
-    "countloty": 5
+    "numberOfDepartures": 5
   },
   {
-    "lotnisko": {
-"identity": 33,
+    "air": {
+"identity": 23,
 "labels": [
         "Airport"
       ],
@@ -441,11 +441,11 @@
 "name": "HNL"
       }
     },
-    "countloty": 5
+    "numberOfDepartures": 5
   },
   {
-    "lotnisko": {
-"identity": 54,
+    "air": {
+"identity": 44,
 "labels": [
         "Airport"
       ],
@@ -453,11 +453,11 @@
 "name": "FSD"
       }
     },
-    "countloty": 5
+    "numberOfDepartures": 5
   },
   {
-    "lotnisko": {
-"identity": 11,
+    "air": {
+"identity": 1,
 "labels": [
         "Airport"
       ],
@@ -465,11 +465,11 @@
 "name": "EWR"
       }
     },
-    "countloty": 7
+    "numberOfDepartures": 7
   },
   {
-    "lotnisko": {
-"identity": 59,
+    "air": {
+"identity": 49,
 "labels": [
         "Airport"
       ],
@@ -477,11 +477,11 @@
 "name": "MOT"
       }
     },
-    "countloty": 8
+    "numberOfDepartures": 8
   },
   {
-    "lotnisko": {
-"identity": 18,
+    "air": {
+"identity": 8,
 "labels": [
         "Airport"
       ],
@@ -489,11 +489,11 @@
 "name": "MSP"
       }
     },
-    "countloty": 9
+    "numberOfDepartures": 9
   },
   {
-    "lotnisko": {
-"identity": 22,
+    "air": {
+"identity": 12,
 "labels": [
         "Airport"
       ],
@@ -501,11 +501,11 @@
 "name": "IAD"
       }
     },
-    "countloty": 12
+    "numberOfDepartures": 12
   },
   {
-    "lotnisko": {
-"identity": 46,
+    "air": {
+"identity": 36,
 "labels": [
         "Airport"
       ],
@@ -513,11 +513,11 @@
 "name": "BNA"
       }
     },
-    "countloty": 12
+    "numberOfDepartures": 12
   },
   {
-    "lotnisko": {
-"identity": 57,
+    "air": {
+"identity": 47,
 "labels": [
         "Airport"
       ],
@@ -525,11 +525,11 @@
 "name": "AZO"
       }
     },
-    "countloty": 13
+    "numberOfDepartures": 13
   },
   {
-    "lotnisko": {
-"identity": 21,
+    "air": {
+"identity": 11,
 "labels": [
         "Airport"
       ],
@@ -537,11 +537,11 @@
 "name": "SFO"
       }
     },
-    "countloty": 14
+    "numberOfDepartures": 14
   },
   {
-    "lotnisko": {
-"identity": 27,
+    "air": {
+"identity": 17,
 "labels": [
         "Airport"
       ],
@@ -549,11 +549,11 @@
 "name": "DEN"
       }
     },
-    "countloty": 18
+    "numberOfDepartures": 18
   },
   {
-    "lotnisko": {
-"identity": 15,
+    "air": {
+"identity": 5,
 "labels": [
         "Airport"
       ],
@@ -561,11 +561,11 @@
 "name": "LAX"
       }
     },
-    "countloty": 22
+    "numberOfDepartures": 22
   },
   {
-    "lotnisko": {
-"identity": 12,
+    "air": {
+"identity": 2,
 "labels": [
         "Airport"
       ],
@@ -573,11 +573,11 @@
 "name": "IAH"
       }
     },
-    "countloty": 23
+    "numberOfDepartures": 23
   },
   {
-    "lotnisko": {
-"identity": 58,
+    "air": {
+"identity": 48,
 "labels": [
         "Airport"
       ],
@@ -585,11 +585,11 @@
 "name": "DTW"
       }
     },
-    "countloty": 25
+    "numberOfDepartures": 25
   },
   {
-    "lotnisko": {
-"identity": 17,
+    "air": {
+"identity": 7,
 "labels": [
         "Airport"
       ],
@@ -597,6 +597,6 @@
 "name": "ORD"
       }
     },
-    "countloty": 48
+    "numberOfDepartures": 48
   }
 ]
