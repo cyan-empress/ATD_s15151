@@ -1,6 +1,6 @@
 [
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 10,
 "labels": [
         "Airport"
@@ -9,10 +9,10 @@
 "name": "SEA"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 11,
 "labels": [
         "Airport"
@@ -21,10 +21,10 @@
 "name": "EWR"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 12,
 "labels": [
         "Airport"
@@ -33,10 +33,10 @@
 "name": "IAH"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 14,
 "labels": [
         "Airport"
@@ -45,10 +45,10 @@
 "name": "MCO"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 15,
 "labels": [
         "Airport"
@@ -57,10 +57,10 @@
 "name": "LAX"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 16,
 "labels": [
         "Airport"
@@ -69,10 +69,10 @@
 "name": "FLL"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 17,
 "labels": [
         "Airport"
@@ -81,10 +81,10 @@
 "name": "ORD"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 18,
 "labels": [
         "Airport"
@@ -93,10 +93,10 @@
 "name": "MSP"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 20,
 "labels": [
         "Airport"
@@ -105,10 +105,10 @@
 "name": "PDX"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 21,
 "labels": [
         "Airport"
@@ -117,10 +117,10 @@
 "name": "SFO"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 22,
 "labels": [
         "Airport"
@@ -129,10 +129,10 @@
 "name": "IAD"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 23,
 "labels": [
         "Airport"
@@ -141,10 +141,10 @@
 "name": "SMF"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 26,
 "labels": [
         "Airport"
@@ -153,10 +153,10 @@
 "name": "BOS"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 27,
 "labels": [
         "Airport"
@@ -165,10 +165,10 @@
 "name": "DEN"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 28,
 "labels": [
         "Airport"
@@ -177,10 +177,10 @@
 "name": "DFW"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 31,
 "labels": [
         "Airport"
@@ -189,10 +189,10 @@
 "name": "MSN"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 32,
 "labels": [
         "Airport"
@@ -201,10 +201,10 @@
 "name": "SNA"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 33,
 "labels": [
         "Airport"
@@ -213,10 +213,10 @@
 "name": "HNL"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 34,
 "labels": [
         "Airport"
@@ -225,10 +225,10 @@
 "name": "SAN"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 35,
 "labels": [
         "Airport"
@@ -237,10 +237,10 @@
 "name": "LAS"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 36,
 "labels": [
         "Airport"
@@ -249,10 +249,10 @@
 "name": "ATL"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 37,
 "labels": [
         "Airport"
@@ -261,10 +261,10 @@
 "name": "CMH"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 38,
 "labels": [
         "Airport"
@@ -273,10 +273,10 @@
 "name": "SJC"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 39,
 "labels": [
         "Airport"
@@ -285,10 +285,10 @@
 "name": "PHX"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 41,
 "labels": [
         "Airport"
@@ -297,10 +297,10 @@
 "name": "LGA"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 42,
 "labels": [
         "Airport"
@@ -309,10 +309,10 @@
 "name": "ROC"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 48,
 "labels": [
         "Airport"
@@ -321,10 +321,10 @@
 "name": "PBI"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 49,
 "labels": [
         "Airport"
@@ -333,10 +333,10 @@
 "name": "MIA"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 50,
 "labels": [
         "Airport"
@@ -345,10 +345,10 @@
 "name": "ABQ"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 51,
 "labels": [
         "Airport"
@@ -357,10 +357,10 @@
 "name": "FAT"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 52,
 "labels": [
         "Airport"
@@ -369,10 +369,10 @@
 "name": "TUS"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 57,
 "labels": [
         "Airport"
@@ -381,10 +381,10 @@
 "name": "AZO"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 58,
 "labels": [
         "Airport"
@@ -393,10 +393,10 @@
 "name": "DTW"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 60,
 "labels": [
         "Airport"
@@ -405,10 +405,10 @@
 "name": "TPA"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 61,
 "labels": [
         "Airport"
@@ -417,10 +417,10 @@
 "name": "PIT"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 62,
 "labels": [
         "Airport"
@@ -429,10 +429,10 @@
 "name": "PSP"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 63,
 "labels": [
         "Airport"
@@ -441,10 +441,10 @@
 "name": "RSW"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 64,
 "labels": [
         "Airport"
@@ -453,10 +453,10 @@
 "name": "BDL"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 65,
 "labels": [
         "Airport"
@@ -465,10 +465,10 @@
 "name": "ORF"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 66,
 "labels": [
         "Airport"
@@ -477,10 +477,10 @@
 "name": "BWI"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 67,
 "labels": [
         "Airport"
@@ -489,10 +489,10 @@
 "name": "AUS"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 68,
 "labels": [
         "Airport"
@@ -501,10 +501,10 @@
 "name": "MEM"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 69,
 "labels": [
         "Airport"
@@ -513,10 +513,10 @@
 "name": "MFE"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 70,
 "labels": [
         "Airport"
@@ -525,10 +525,10 @@
 "name": "OMA"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 71,
 "labels": [
         "Airport"
@@ -537,10 +537,10 @@
 "name": "MSY"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 72,
 "labels": [
         "Airport"
@@ -549,10 +549,10 @@
 "name": "BZN"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 73,
 "labels": [
         "Airport"
@@ -561,10 +561,10 @@
 "name": "OKC"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 74,
 "labels": [
         "Airport"
@@ -573,10 +573,10 @@
 "name": "CRP"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 75,
 "labels": [
         "Airport"
@@ -585,10 +585,10 @@
 "name": "TUL"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 76,
 "labels": [
         "Airport"
@@ -597,10 +597,10 @@
 "name": "FAR"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 77,
 "labels": [
         "Airport"
@@ -609,10 +609,10 @@
 "name": "SGF"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 78,
 "labels": [
         "Airport"
@@ -621,10 +621,10 @@
 "name": "GRR"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 79,
 "labels": [
         "Airport"
@@ -633,10 +633,10 @@
 "name": "RNO"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   },
   {
-    "lotnisko2": {
+    "destination": {
 "identity": 80,
 "labels": [
         "Airport"
@@ -645,6 +645,6 @@
 "name": "DAY"
       }
     },
-    "count(distinct lotnisko2)": 1
+    "count(distinct destination)": 1
   }
 ]
